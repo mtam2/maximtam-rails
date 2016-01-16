@@ -1,0 +1,18 @@
+<!--CREATED BY MAXIM TAM; 9/17/2015-->
+<% provide(:title, "Comics")%>
+<!DOCTYPE html>
+<html>
+    <head><link type="text/css" rel="stylesheet" href="style.css"/>
+        <h1>Comics!</h1>
+        <h3><a href="https://github.com/mtam2/ComicShellScript">GitHub Page</a></h3>
+    </head>
+    <body>
+        <p><% `pwd` %></p>
+        <h2><a href="http://thedoghousediaries.com/">Doghouse Diaries</a></h2>
+        <%= link_to image_tag("dhd.png", alt: "Doghouse Diaries") %>
+        <h2><a href="http://www.smbc-comics.com/">Saturday Morning Breakfast Cereal</a></h2>
+        <%= link_to image_tag("smbc.png", alt: "Saturday Morning Breakfast Cereal") %>
+        <h2><a href="http://www.xkcd.com/">XKCD</a></h2>
+        <%= link_to image_tag("xkcd.png", alt: "XKCD") %>
+    </body>
+</html>

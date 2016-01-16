@@ -4,7 +4,8 @@ Rails.application.routes.draw do
   get 'projects' => 'static_pages#projects'
   get 'resume' => 'static_pages#resume'
   get 'hobbies' => 'static_pages#hobbies'
-
+  get 'comics' => 'static_pages#comics'
+  get 'car' => 'static_pages#car'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
