@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
   
+
   root 'static_pages#home'
+  # get 'comics/update'
+  # get 'comics/add'
+  # get 'comics/remove'
+
+  get 'update' => 'comics#update'
+  get 'remove' => 'comics#remove'
+  
   get 'projects' => 'static_pages#projects'
   get 'resume' => 'static_pages#resume'
   get 'hobbies' => 'static_pages#hobbies'

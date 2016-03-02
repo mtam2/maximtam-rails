@@ -6,8 +6,14 @@
         <h1>Comics!</h1>
         <h3><a href="https://github.com/mtam2/ComicShellScript">GitHub Page</a></h3>
     </head>
-    <body>
-        <p><% `pwd` %></p>
+    <body class="text-center">
+        <form>
+            <%= link_to "update",update_path, :class => 'btn btn-primary' %>
+        </form>
+        <form>
+            <%= link_to "remove",remove_path, :class => 'btn btn-danger' %>
+        </form>
+        <p><%= `pwd` %></p>
         <h2><a href="http://thedoghousediaries.com/">Doghouse Diaries</a></h2>
         <%= link_to image_tag("dhd.png", alt: "Doghouse Diaries") %>
         <h2><a href="http://www.smbc-comics.com/">Saturday Morning Breakfast Cereal</a></h2>

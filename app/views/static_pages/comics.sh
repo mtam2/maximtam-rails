@@ -1,4 +1,6 @@
 ##CREATED BY MAXIM TAM; 9/17/2015
+##crontab -e
+## 00 07 * * 1,3,5 sh /home/ubuntu/workspace/gitpage/app/views/static_pages/comics.sh 
 curl http://xkcd.com > xkcd.html
 curl `grep -o 'http.*png$' xkcd.html` > xkcd.png
 
