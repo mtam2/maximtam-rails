@@ -3,13 +3,12 @@ Want to deploy a rails app from [c9.io](c9.io) to [Heroku](https://www.heroku.co
 
 1. Create a Cloud9 workspace with a blank template
 2. Open a new terminal in the workspace
-3. Type the commands 
+3. Type the commands
 
-
-    gem install rails
-    rails new PROJECTNAME --database=postgresql
-    cd PROJECTNAME
-    rails generate controller Main pagename1 pagename2
+        gem install rails
+        rails new PROJECTNAME --database=postgresql
+        cd PROJECTNAME
+        rails generate controller Main pagename1 pagename2
     
 This is the time where you can edit the HTML pages in your `PROJECTNAME>app>views>main` folder  
     
@@ -17,20 +16,18 @@ This is the time where you can edit the HTML pages in your `PROJECTNAME>app>view
 5. Save and exit
 6. To do steps 4 & 5 from terminal type the following otherwise skip ahead to step 7:
 
-
-    cd config
-    vim routes.rb
-    Press downarrow key
-    i
-    root 'main#pagename1
-    Press esc key
-    Press Shift+ZZ
+         cd config
+         vim routes.rb
+         Press downarrow key
+         i
+         root 'main#pagename1
+         Press esc key
+         Press Shift+ZZ
 
 7. Type the following commands in terminal: 
 
-    
-    heroku login
-    
+         heroku login
+
 Type your heroku credentials now
 
     git init
