@@ -4,21 +4,24 @@
         <h1 class="text-center">Maxim Tam's Homepage</h1>
         <h4 class="text-center"></h4>
     </div>
-    
     <div class="row">
         <div class="col-md-2 col-md-offset-5" style="background-color:#FAFAD2;">
             <h2>About</h2>
             <p>
-                Hi! I am a senior at GGC and currently aspiring to be a <br/>
-                <s>proficient fullstack developer</s><br/>
-                <s>Ruby on Rails developer</s><br/>
-                <s>Java developer</s><br/>
-                <s>Android developer</s><br/>
-                <s>Database Administrator</s><br/>
-                hobo.
-                <a type="button" class="btn btn-primary btn-lg center-block" href="https://github.com/mtam2">GitHub</a>
-                
-                <br><br>
+                Hi! I am a senior at GGC and currently aspiring to be a <br>
+                <s>proficient fullstack developer</s><br>
+                <s>Ruby on Rails developer</s><br>
+                <s>Java developer</s><br>
+                <s>Android developer</s><br>
+                <s>Database Administrator</s><br>
+                <s>QA Analyst</s><br>
+                hobo.<hr>
+                Current Big Project:
+                <a class="btn btn-primary btn-lg center-block" href="http://mtam2.github.io/Ctrl-Cloud/">
+                    <img src="<%=asset_path('ctrl_cloud_logo.png')%>" height="20" width="20"> Ctrl-Cloud
+                </a><br>
+                <a type="button" class="btn btn-primary btn-lg center-block" href="https://github.com/mtam2">GitHub</a><br>
+                <a type="button" class="btn btn-success btn-lg center-block" href="mailto:mtamdev@gmail.com">Email</a>
                 <p>Days til I become offically unemployed: </p>
                 <% require 'date' %>
                 <%= (Date.new(2016,5,10)-Date.today).to_i %>
