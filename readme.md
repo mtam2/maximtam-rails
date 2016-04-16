@@ -1,8 +1,9 @@
 # How to create new Rails app & Deploy to Heroku
 Want to deploy a rails app from [c9.io](c9.io) to [Heroku](https://www.heroku.com/) without even testing it? Here's how!
+
 1. Create a Cloud9 workspace with a blank template
 2. Open a new terminal in the workspace
-3. Type the commands
+3. Type the commands 
 
 
     gem install rails
