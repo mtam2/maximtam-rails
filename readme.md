@@ -14,7 +14,7 @@ This is the time where you can edit the HTML pages in your `PROJECTNAME>app>view
     
 4. Using the visual interface on the left, navigate to `PROJECTNAME>config` and open routes.rb and Add the line `root 'main#pagename1'` to line 2
 5. Save and exit
-6. To do steps 4 & 5 from terminal type the following otherwise skip ahead to step 7:
+6. To do the two steps above from terminal type the following otherwise skip ahead to the next step:
 
          cd config
          vim routes.rb
