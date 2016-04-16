@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   
-
   root 'static_pages#home'
   # get 'comics/update'
   # get 'comics/add'
