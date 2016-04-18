@@ -32,10 +32,10 @@ Type your heroku credentials now
 
 8. Type these additional commands:
 
-    git init
-    heroku create project-name-yourname
-    git add -A
-    git commit -m "Initial commit"
-    git push heroku master
+        git init
+        heroku create project-name-yourname
+        git add -A
+        git commit -m "Initial commit"
+        git push heroku master
     
 And there you have it! Your rails applications has been deployed to https://projectname-herokuUsername.herokuapp.com/
