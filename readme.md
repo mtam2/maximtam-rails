@@ -30,6 +30,8 @@ This is the time where you can edit the HTML pages in your `PROJECTNAME>app>view
 
 Type your heroku credentials now
 
+8. Type these additional commands:
+
     git init
     heroku create project-name-yourname
     git add -A
